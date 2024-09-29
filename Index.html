@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrewTopia</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <script src="https://kit.fontawesome.com/f83b03a050.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="Imagenes/IconCoffee.png" alt="Logo BrewTopia">
+        </a>
+
+        <nav class="navbar">
+                <a href="#home">Inicio</a>
+                <a href="#about">Acerca de nosotros</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contacto</a>
+                <a href="#blogs">Blog</a>
+        </nav>
+
+        <div class="icons">
+            <div><i class="fa-solid fa-search" id="search-btn"></i></div>
+            <div><i class="fa-solid fa-cart-shopping" id="cart-btn"></i></div>
+            <div><i class="fa-solid fa-bars" id="menu-btn"></i></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Buscar...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="Imagenes/CafeEthiopia.svg" alt="Producto 1">
+                <div class="content">
+                    <h3>Cafe Ethiopia</h3>
+                    <div class="price">S/45</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="Imagenes/CafeGuatemala.svg" alt="Producto 2">
+                <div class="content">
+                    <h3>Cafe Guatemala</h3>
+                    <div class="price">S/50</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="Imagenes/CafeNicaragua.svg" alt="Producto 3">
+                <div class="content">
+                    <h3>Cafe Nicaragua</h3>
+                    <div class="price">S/55</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Granos que cuentan <br>historias</h3>
+            <p>"Descubre el arte del café en cada sorbo"</p>
+            <a href="#menu" class="btn">Comprar ahora</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>Acerca de</span> nosotros</h1>
+        <div class="row">
+            <div class="image">
+                <img src="Imagenes/SobreNosotros.jpg" alt="Acerca de nosotros">
+            </div>
+            <div class="content">
+                <h3>¿Por qué elegirnos?</h3>
+                <p>En Brewtopia, creemos que cada taza de café cuenta una historia. Desde los vibrantes cafetales
+                    de montañas hasta el momento que tomas ese primer sorbo, nos comprometemos a brindarte na experiencia única.
+                    Nos dedicamos a seleccionar los mejores granos de café y a preparar cada taza con pasión y esmero.
+                    Nuestro compromiso es ofrecerte una experiencia de café excepcional, desde el cultivo hasta la taza. 
+                    Ofreciendo una amplia variedad de granos de café, ofreciendo una amplia variedad de sabores y origenes para que 
+                    cada taza sea una aventura. Ya que prefieras un espeso intenso o un café de especialidad, en Brewtopia encontrarás 
+                    el grano perfecto para tu paladar.
+                </p>
+                <a href="#" class="btn">Leer mas</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h1 class="heading">Nuestro <span>Menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Imagenes/menu1.png" alt="Menu1 ">
+                <h3>Cafe expreso</h3>
+                <div class="price">S/10</div>
+                <a href="#" class="btn">Comprar ahora</a>
+            </div>
+
+            <div class="box">
+                <img src="Imagenes/CafeMachiato.png" alt="Menu2 ">
+                <h3>Cafe Machiato</h3>
+                <div class="price">S/15</div>
+                <a href="#" class="btn">Comprar ahora</a>
+            </div>
+
+            <div class="box">
+                <img src="Imagenes/cappuccino.png" alt="Menu3 ">
+                <h3>Cappuccino</h3>
+                <div class="price">S/20</div>
+                <a href="#" class="btn">Comprar ahora</a>
+            </div>
+
+            <div class="box">
+                <img src="Imagenes/cafemoca.png" alt="Menu4 ">
+                <h3>Cafe mocaccino</h3>
+                <div class="price">S/25</div>
+                <a href="#" class="btn">Comprar ahora</a>
+            </div>
+
+            <div class="box">
+                <img src="Imagenes/cafeflatewhite.png" alt="Menu5 ">
+                <h3>Cafe Flate White</h3>
+                <div class="price">S/30</div>
+                <a href="#" class="btn">Comprar ahora</a>
+            </div>
+
+            <div class="box">
+                <img src="Imagenes/cafeconleche.png" alt="Menu6 ">
+                <h3>Cafe con leche</h3>
+                <div class="price">S/35</div>
+                <a href="#" class="btn">Comprar ahora</a>
+            </div>    
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading">Nuestros <span>Productos</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Imagenes/CafeEthiopia.svg" alt="Producto 1">
+                </div>
+                <div class="content">
+                    <h3>Granos de Cafe <br>Ethiopia</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">S/45 <span>S/15</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Imagenes/CafeGuatemala.svg" alt="Producto 2">
+                </div>
+                <div class="content">
+                    <h3>Granos de Cafe Guatemala</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">S/50 <span>S/15</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Imagenes/CafeNicaragua.svg" alt="Producto 3">
+                </div>
+                <div class="content">
+                    <h3>Granos de Cafe Nicaragua</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">S/55 <span>S/15</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading">Contacto <span>BrewTopia</span></h1>
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26503.589956348158!2d-76.92193042568357!3d-12.018092899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c300327fcd89%3A0xcaf0e94fc00cf464!2sEl%20Arte%20del%20Caf%C3%A9%20-%20Qhatu%20Plaza!5e1!3m2!1ses-419!2spe!4v1727557271329!5m2!1ses-419!2spe"  allowfullscreen="" loading="lazy" class="map"></iframe>
+            <form action="">
+                <h3>Contactanos</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="Telefono">
+                </div>
+                <input type="submit" value="Contactar ahora" class="btn">
+            </form>
+        </div>
+    </section>
+
+     <section class="blogs" id="blogs">
+        <h1 class="heading">Nuestro <span>Blog</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Imagenes/blog1.jpg" alt="Blog1">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Blog 1</a>
+                    <span>by admin / 28st may, 2024</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                    <a href="#" class="btn">Leer mas</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="Imagenes/blog2.png" alt="Blog2">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Blog 2</a>
+                    <span>by admin / 28st may, 2024</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                    <a href="#" class="btn">Leer mas</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Imagenes/blog3.jpg" alt="Blog3">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Blog 3</a>
+                    <span>by admin / 28st may, 2024</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                    <a href="#" class="btn">Leer mas</a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="footer">
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Inicio</a>
+            <a href="#about">Acerca de nosotros</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contacto</a>
+            <a href="#blogs">Blog</a>
+        </div>
+        
+        <div class="credit">Creado por <span>BrewTopia</span> | Todos los derechos reservados</div>
+
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="JavaScript.js"></script>
+</body>
+</html>
